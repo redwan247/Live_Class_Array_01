@@ -12,7 +12,7 @@ Partho Das · 43:18 akta array er max size oi PC tar configure upor depend kore
 
 a[3/2] => a[1]
 
-Ekhane ami ektu vul korsi. 3/2 er result vagfol 1 tai oita e ashbe. Amar tokhon mathay vagfol er kotha ashtesilo na.
+Ekhane ami ektu vul korsi. 3/2 er result vagfol 1 tai oita e ashbe. Amar tokhon mathay vagfol er kotha ashtesilo na. Kintu / operator vagfol e dibe ja hoilo 1.
 ...
 
 03.
