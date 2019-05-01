@@ -1,0 +1,77 @@
+﻿01.
+
+সামিয়া আফরিন · 37:42 Highest kotota elements amra assign korte parbo??
+
+answer:
+Umme Habiba · 40:48 Os a joto tuku serial hysebe jayga khali thakbe toto tuku porjonto assign kora jay
+
+Partho Das · 43:18 akta array er max size oi PC tar configure upor depend kore
+......
+
+02.
+
+a[3/2] => a[1]
+
+Ekhane ami ektu vul korsi. 3/2 er result vagfol e ashbe. Mane 1 e ashbe.
+...
+
+03.
+
+Rafiul Alam · 6:09 Float also
+
+answer:
+#float er jonno
+
+float a[5];
+
+for(i=0; i<5 ; i++){
+	scanf("%f", &a[i]);
+}
+
+#double er jonno
+
+double a[5];
+
+for(i=0; i<5 ; i++){
+	scanf("%lf", &a[i]);
+}
+...
+
+04.
+
+Partho Das · 1:30:40 bhai amar if er modhe found print kobe and return 0 kore dibe and na hole loop er sese not found print korbe
+
+answer:
+Ha tao hobe. Beginner der jonno, tai beginner der moto korlam.
+...
+
+05.
+
+Hasibul Hasan Shovo · 1:30:55 vai index koto seta jodi jante cai?
+
+answer:
+for(i=0; i<5 ; i++){
+	if(arr[i] == num)
+		printf("Index : %d", i);
+}
+...
+
+06.
+
+Ohiduzzaman Ove · 1:41:08 b te reverse print kore dekhaiyen
+
+answer:
+int a[5], b[5];
+
+for(i=0; i<5 ; i++){
+	scanf("%d", &a[i]);
+}
+
+for(i=4; i>=0; i--){
+	b[i] = a[i];
+}
+
+for(i=0; i<5 ; i++){
+	scanf("%d ", b[i]);
+}
+...
