@@ -12,7 +12,7 @@ Partho Das · 43:18 akta array er max size oi PC tar configure upor depend kore
 
 a[3/2] => a[1]
 
-Ekhane ami ektu vul korsi. 3/2 er result vagfol e ashbe. Mane 1 e ashbe.
+Ekhane ami ektu vul korsi. 3/2 er result vagfol 1 tai oita e ashbe. Amar tokhon mathay vagfol er kotha ashtesilo na.
 ...
 
 03.
@@ -62,16 +62,18 @@ Ohiduzzaman Ove · 1:41:08 b te reverse print kore dekhaiyen
 
 answer:
 int a[5], b[5];
+int i, j=0;
 
 for(i=0; i<5 ; i++){
 	scanf("%d", &a[i]);
 }
 
 for(i=4; i>=0; i--){
-	b[i] = a[i];
+	b[j] = a[i];
+	j++;
 }
 
-for(i=0; i<5 ; i++){
-	scanf("%d ", b[i]);
+for(j=0; j<5 ; j++){
+	scanf("%d ", b[j]);
 }
 ...
